@@ -27,6 +27,12 @@ def area(x: float, y: float, w: float, h: float) -> float:
         x, y = 0, 0
 
         w, h = 1000, 500
+
+    Пример http запроса:
+        
+        http://localhost:8000/area/?x=1&y=2&w=3&h=4
+        
+    Где x,y,w,h равны 1,2,3,4 соотвественно
     """
 
     fixed_x = float(0)
